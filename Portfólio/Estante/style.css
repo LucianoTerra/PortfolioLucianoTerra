@@ -1,0 +1,133 @@
+html {
+    /* Suavização na rolagem (scroll) */
+    scroll-behavior: smooth;
+}
+body {
+    /* background fundo */
+    background-color: #f2e7dc;
+
+    /* Texto */
+    color: #040e0e;
+    text-align: justify;
+
+    /* Alinhamento e Tamanho */
+    /* 1rem = 16pix, tela grande = font-size: 16pix, tela média = font-size: 15pix, tela pequena = font-size: 14pix */
+    width: 90%;
+    margin: auto;
+}
+/* Seções de Livros */
+section {
+    /* Espaçamento dentro da seção */
+    padding: 64px 256px;
+}
+
+/* Tabela */
+table {
+    /* largura */
+    width: 100%;
+}
+td {
+    /* background */
+    background-color: rgb(153, 212, 212);
+}
+td,
+th {
+    /* borda no formato shorthand */
+    border: #000 solid 1px;
+    border-radius: 4px;
+
+    /*alinhamento do texto */
+    text-align: center;
+}
+tr {
+    background-color: #038c7f;
+}
+
+/* Título, Texto e parágrafos */
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+h1, 
+h2, 
+h3 {
+    text-align: center;
+}
+
+h3 {
+        color: #000;
+}
+/* Links */
+a:link {
+    color: #ae5f0b; /* Link Normal */
+}
+a:visited {
+    color: #0825a6; /* Link Visitado */
+}
+a:hover {
+    color: #040e0e; /* Mouse sobre o Link */
+}
+a:active {
+    color: #695d50; /* Link selecionado */
+}
+
+/* Imagem */
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+/* Classes e IDs */
+.bookTitle {
+    background-color: rgb(11, 121, 121);
+    color: #112525;
+    text-align: center;
+}
+#sectionHP, 
+#sectionD, 
+#sectionHH {
+    background-color: #849b40;
+}
+#header {
+    background-color: #2e534f;
+    color: #aabdbb;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+    background-color: #bcac86;
+    color: #2b2a28;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botão */
+button {
+    background-color: rgb(96, 131, 96);
+    border-radius: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #bcac86;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
