@@ -8,29 +8,64 @@ h2 {
     color: rgb(209, 143, 11);
 }
 .navbar {
+    width: 100%;
     background-color: rgb(145, 135, 135); 
 }
 .navbar a {
     color: white;
     padding: 0.5rem;
+    
 }
 .navbar a:hover {
     background-color: #96ebf1;
     color: rgb(10, 10, 138);
     border-radius: 4px;
 }
-.bgimage {
+.bgimage {   
     height: 100vh;
     position: relative;
 
     background: url("Imag/capa\ site\ portfólio\ pessoal.png");
-    background-size: cover;
+    background-size: cover;    
 }
 .heroTitle {
     font-size: 4.5rem;
 }
 .heroDesc {
     font-size: 2rem;
+}
+@media (max-width: 1200px) {    
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+    .heroDesc {
+        font-size: 1.5rem;
+    }
+    .bgimage {   
+        width: 100%;  
+    }
+}
+@media (max-width: 1000px) {    
+    .heroTitle {
+        font-size: 3.5rem;
+    }
+    .heroDesc {
+        font-size: 2rem;
+    }
+    .bgimage {   
+        width: 100%;  
+    }
+}
+@media (max-width: 600px) {    
+    .heroTitle {
+        font-size: 2rem;
+    }
+    .heroDesc {
+        font-size: 1rem;
+    }
+    .bgimage {   
+        width: 100%;  
+    }
 }
 .heroText {
     text-align: center;
@@ -73,10 +108,12 @@ h2 {
     background-color: rgb(218, 224, 224);
 }
 .contactIconPlus {
+    margin-top: 0.5rem;
     font-size: 2rem;  
     color: black;
 }
 .contactIcon {
+    margin-top: 0.5rem;
     font-size: 2rem;  
     color: black;
 }
@@ -88,6 +125,7 @@ footer {
     background-color: rgb(145, 135, 135);   
 }
 .footerIcon {
+    margin-top: 0.8rem;
     font-size: 0,5rem;
     color: white;
 }
