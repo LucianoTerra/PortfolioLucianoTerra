@@ -1,0 +1,116 @@
+#sobre,
+#informacoes,
+#etapas,
+#contato {
+    padding: 5rem 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: rgb(177, 184, 183);
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0;
+    padding: 40px;
+    padding-top: 40px;
+    background-color: rgb(105, 101, 101);
+}
+header, h1 {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+#burguer {
+    background-color: rgb(66, 61, 61);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+menu {    
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    display: none;
+}
+menu, ul {
+    list-style-type: none;
+    text-align: center;
+}
+menu, a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(147, 151, 154);
+    color: white;
+    border-top: 2px solid grey;    
+}
+menu, a:hover {
+    color: black;
+    background-color: gray;
+    border-radius: 5px;
+}
+.sobre h2 {
+    text-align: center;  
+}
+.informacoes h2 {
+    text-align: center;  
+}
+.etapas h2 {
+    text-align: center;  
+}
+.contato h2 {
+    text-align: center;    
+}
+.sobre,
+.informacoes,
+.etapas,
+.contato p {
+    text-align: justify;    
+}
+.sobre,
+.informacoes,
+.etapas,
+.contato {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(232, 226, 226);
+    margin-top: 150px;
+    padding: 15px;
+    border-radius: 6px;
+}
+.footer {
+    padding: 8px;
+    background-color: rgb(86, 78, 78);
+    color: white;
+}
+.footer p {
+    text-align: center;
+}
+.footerIcon {
+    margin-top: 1.5px;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu, li {
+        display: inline-block;
+    }
+    section {
+         width: 768;
+    }
+    }

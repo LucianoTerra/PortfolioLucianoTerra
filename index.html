@@ -26,7 +26,7 @@
 <body>
     <!--Menu Fixo-->
  <nav class="navbar navbar-expand-lg fixed-top navabarScroll">
-  <div class="container">
+  <div class="container-fluid">
    <a class="navbar-brand" href="#">Luciano</a>
     <button 
       class="navbar-toggler" 
@@ -111,8 +111,7 @@
                   O mais fácil é listar pontos gerais como formação acadêmica, atividades profissionais, talvez alguns pontos pessoais que impactam no meu modo de ser e agir.
                 </p>
 
-                <p>Nome? Idade? Atividades profissionais? Formações acadêmicas? Competências e habilidades? Hobby? Passatempos?
-                Mesmo respondendo todas estas perguntas e tantas outras a definição de quem eu sou, será sempre uma pequena parte do verdadeiro universo que me forma... hoje... e amanhã.</p>
+                <p>:</p>
                 
                 <div class="row mt-3">
                     <div class="col-md-6">
@@ -138,9 +137,10 @@
     </div>
 </section>
 
+<div class="espaco"></div>
 <!--Informações sobre os serviços/habilidades-->
 <section class="experience" id="experience">
-    <div class="container">
+    <div class="container mt-4 mb-4">
      <h2 class="text-center">Experiências</h2>
 
      <!--Uma Linha-->
@@ -196,11 +196,59 @@
  </div>
 </section>
 
+<div class="espaco"></div>
 <!--Section Porfolio-->
 <section id="portfolio">
   <div class="container mt-3">
     <h2 class="text-center mb-3">Portfólio</h2>
-    
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="card">
+          <img class="card-img-top" 
+          src="Portfólio/thumbs/Site Cgct_RS.png" 
+          alt="Card Cadastro"
+          style="width: 100%"/>
+  
+          <div class="cardBody">
+            <h3 class="cardTitle">Site Campeonato Gaúcho de Corrida em Trilha</h3>
+            <p class="cardText text-center">
+             Projeto com HTML e CSS, desenvolvido após o curso Do Zero Ao Primeiro Site,
+             ofertado pelo grupo +PraTi. Construção do site Cgct_RS com interação com outros 
+             sites e acesso a formulários importantes para os atletas.
+            </p>
+            <div class="text-center mb-3">
+              <a href="Portfólio/Site Cgct_RS/index.html" 
+              target="_blank">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <img class="card-img-top"
+          src="Portfólio/thumbs/Menu Fixo Responsivo.png" 
+          alt="Card Locadora"
+          style="width: 100%"/>
+  
+          <div class="cardBody">
+            <h3 class="cardTitle">Menu Fixo Responsivo</h3>
+            <p class="cardText text-center">
+             Projeto com HTML, CSS e JAVASCRIPT, desenvolvido após o curso Do Zero Ao Primeiro Site,
+             ofertado pelo grupo +PraTi. Construído sem a utilização do framework Bootstrap, 
+             buscando a possibilidade de visualizar e adaptar o menu a tamanhos diferentes de tela.
+            </p>
+            <div class="text-center mb-3">
+              <a href="Portfólio/Menu Fixo Responsivo/index.html" 
+              target="_blank">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="espaco"></div>
+
     <div class="row">
     <div class="col-lg-6">
       <div class="card">
@@ -321,7 +369,7 @@
 
 <!--Section Contatos-->
 <section class="contact" id="contato">
-  <div class="container mt-3 mb-3 contactContent">
+  <div class="container mt-4 mb-4 contactContent">
    <h2 class="text-center">Contatos</h2>
 
    <div class="row mt-4">
@@ -412,11 +460,8 @@
   </div>
 
   <div class="text-center p-1 footerDev">
-    <i class="fa-solid fa-copyright"></i>
-    <p>Desenvolvido por Luciano Terra</p>
+        <p><i class="fa-solid fa-copyright"></i> 2023. Luciano Terra - Todos direitos reservados.</p>
   </div>
- 
 </footer>
-
 </body>
 </html>

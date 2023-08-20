@@ -1,0 +1,182 @@
+#sobre,
+#etapas,
+#informacoes,
+#resultados,
+#contato {
+    padding: 5rem 0;
+}
+a:link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+}
+.navbar {
+    width: 100vw;
+    background-color: rgb(10, 150, 15);
+}
+.navbar a {
+    color: white;
+    padding: 0.5rem;
+}
+.navbar a:hover {
+    background-color: rgb(85, 229, 90);
+    color: rgb(10, 10, 138);
+    border-radius: 4px;
+}
+.bgimage {
+    width: 100vw; 
+    height: 100vh;
+    position: relative;
+
+    background: url("Imag/Capa\ 2.jpg");
+    background-size: cover;    
+}
+.heroTitle {
+    font-size: 4.5rem;
+}
+.heroDesc {
+    font-size: 5.5rem;
+}
+@media (min-width: 999px) and (max-width: 1200px) {  
+    .bgimage { 
+        height: 100vh;
+        position: relative;
+      
+        background: url("Imag/Capa\ 3.png");
+        background-size: cover; 
+    }
+    .heroTitle {
+        font-size: 4rem;
+    }
+    .heroDesc {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1000px) {  
+    .bgimage { 
+        height: 100vh;
+        position: relative;
+       
+        background: url("Imag/Capa\ 3.png");
+        background-size: cover; 
+    } 
+    .heroTitle {
+        font-size: 3rem;
+    }
+    .heroDesc {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 600px)   {
+    .bgimage {   
+        height: 100vh;
+        position: relative;
+        
+        background: url("Imag/Capa\ 3.png");
+        background-size: cover; 
+    }
+    .heroTitle {
+        font-size: 2rem;
+    }
+    .heroDesc {
+        font-size: 1rem;
+    }
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.aboutImage {
+    width: 100%;
+}
+.etapas {
+    background-color: rgb(10, 150, 15);
+}
+.espaco {
+    height: 1rem;
+}
+.logosIcon {
+    margin-top: 1rem;
+    align-items: center;
+    width: 80px;
+}
+.logosIcon1 {
+    margin-top: 1rem;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover {
+    text-decoration: none;
+    color: rgb(10, 10, 138);
+    background-color: rgb(85, 229, 90);
+}
+.button {
+    background-color: rgb(10, 150, 15);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.button a {
+    color: white;
+    text-decoration: none;
+}
+.button a:hover {
+    color: rgb(10, 10, 138);
+}
+.button:hover {
+    background-color: rgb(85, 229, 90);
+
+}
+.buttonCard {
+    background-color: rgb(10, 150, 15);
+}
+.glass {
+    position: absolute;
+    height: 40%;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    
+/* From https://css.glass */
+background: rgba(16, 127, 7, 0.41);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.3px);
+-webkit-backdrop-filter: blur(3.3px);
+} 
+    .contactIconPlus {
+        margin-top: 1rem;
+        font-size: 3rem;
+    } 
+footer {
+    background-color: rgb(10, 150, 15);
+}
+.footerIcon {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    color: white;
+}
+.footerIcon:hover {
+    background-color: rgb(85, 229, 90);
+    color: rgb(10, 10, 138);
+    border-radius: 4px;
+}
+.footerDevIcon {
+    font-size: 1.2rem;
+}
